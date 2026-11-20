@@ -1,0 +1,40 @@
+{
+    "id": "quickcut",
+    "version": "1.6.0",
+    "platform": "win",
+    "arch": "all",
+    "name": "QuickCut 快剪",
+    "logo": "./logo.png",
+    "keywords": [
+        "video",
+        "edit",
+        "trim",
+        "concat",
+        "crop",
+        "volume",
+        "视频剪辑",
+        "拼接",
+        "裁剪",
+        "音量"
+    ],
+    "devTools": false,
+    "shortcut": "CmdOrCtrl+Shift+,",
+    "dependencies": [
+        "ffmpeg"
+    ],
+    "main": {
+        "frame": false,
+        "vibrancy": false,
+        "url": "index.html",
+        "width": 1220,
+        "height": 680,
+        "minWidth": 1000,
+        "minHeight": 600,
+        "maximizable": true,
+        "minimizable": true,
+        "fullscreenable": false,
+        "resizable": true,
+        "opacity": 1,
+        "backgroundColor": "#141519"
+    }
+}
